@@ -14,3 +14,8 @@ test:
 
         - name: mkdir
           harness: test-mkdir.py
+
+        - name: pshlogin
+          harness: test-login_ia32.py
+          targets:
+              value: [ia32-generic] 
